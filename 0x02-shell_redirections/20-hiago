@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$String" | sed 's/[cC]//g'
+echo "$String" | tr -d 'cC'
