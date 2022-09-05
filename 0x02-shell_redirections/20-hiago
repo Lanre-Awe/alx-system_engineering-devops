@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$String" | tr -d 'C' 'c'
+tr -d 'Cc'
