@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -laR ./ | egrep -c '^d'
+ls -laR | grep ^d | wc -l
