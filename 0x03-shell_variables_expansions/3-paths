@@ -1,0 +1,2 @@
+#!/bin/bash
+ech $(echo $(find "$1"* -maxdepth 0 -type d | wc -l); "$PATH")
