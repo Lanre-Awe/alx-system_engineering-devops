@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e {a..z}{a..z}"\n" | grep "oo" | cut -f 1 -d "o"
+echo  {a..z}{a..z} | tr ' ' '\n' |  grep --invert-match "oo"
